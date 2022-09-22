@@ -6,7 +6,7 @@
  *
  * Return: the resulting string
  */
-char *cap_strng(char *s)
+char *cap_string(char *s)
 {
 	int i, j;
 
