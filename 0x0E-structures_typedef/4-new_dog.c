@@ -46,7 +46,7 @@ char *_strcopy(char *dest, char *src)
  * @owner: dog owner
  *
  * Return: struct pointer dog
- * 	NULL if function fails
+ *	NULL if function fails
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
@@ -58,7 +58,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 
 	dog = (dog_t *) malloc(sizeof(dog_t));
-	if (dog ==NULL)
+	if (dog == NULL)
 		return (NULL);
 
 	dog->name = malloc(sizeof(char) * (_strlen(name) + 1));
