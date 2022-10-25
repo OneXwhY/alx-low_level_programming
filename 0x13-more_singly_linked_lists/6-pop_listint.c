@@ -28,7 +28,7 @@ int pop_listint(listint_t **head)
 
 	/*set head to second node*/
 	*head = next;
-	
+
 	/*return element of first node*/
 	return (first_node);
 }
