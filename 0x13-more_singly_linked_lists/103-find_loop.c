@@ -28,7 +28,7 @@ listint_t *find_listint_loop(listint_t *head)
 				node1 = node1->next;
 				node2 = node2->next;
 			}
-			
+
 			return (node1);
 		}
 
